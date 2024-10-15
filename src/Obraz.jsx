@@ -7,7 +7,7 @@ const Obraz = (props) => (
         <p>Obraz numer: {props.nr}</p>
         <p>{props.name}</p>
         <p>{props.desc}</p>
-        <p>{props.price}</p>
+        <p>Cena {props.price} zł</p>
     </div>
 )
 export default Obraz;
